@@ -1,0 +1,11 @@
+title Single Page App - New Note
+
+note over browser:
+Form is submitted
+end note
+note over browser:
+browser executes the event handler
+that renders notes (including the new note) to display
+end note
+browser->server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+server->browser: {"message":"note created"}
